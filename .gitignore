@@ -1,0 +1,21 @@
+# 技能包仓库忽略规则
+
+# 编辑器与系统噪声
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.idea/
+.vscode/
+
+# Python 运行残留
+__pycache__/
+*.pyc
+*.pyo
+
+# 技能运行时的临时产物
+.cache/
+*.tmp
+
+# 注意：不要忽略 vault/.assets/ —— 水土保持技能的红线是图片随包分发、禁止外链。
+# 若只想保留文本，请用 sparse checkout 或安装时用 /XD .assets 排除，而不是在这里忽略。

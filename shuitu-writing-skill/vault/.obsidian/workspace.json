@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "4f7f2ec684b7801c",
+    "type": "split",
+    "children": [
+      {
+        "id": "984bcea15457ebdb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "371d96254569408d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "344798617e4abec9",
+    "type": "split",
+    "children": [
+      {
+        "id": "98d623489058c43f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0e5f9bbd3d57c663",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "ea95f8cc071b2d37",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "fc754efa28d8f273",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c230c456038a126b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab1f848794bd6d5c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c6f38eea39ce1a0d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "cc585f8f434006d1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "ef2aa5a78bfabdda",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "5b6b240a22fd8f62",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "240fd598d84624a5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "未命名.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "0e5f9bbd3d57c663",
+  "lastOpenFiles": [
+    "未命名.md",
+    "未命名.base",
+    "md库/03-专家资料/01-专著/ex02_胡振琪_采煤沉陷地的土地资源管理与复垦.md",
+    "md库/03-专家资料/05-学位论文/学位论文_西安理工大学_2009_硕士_时乐_石窑店煤矿水土保持及生态修复体系下植物护坡及拦渣坝稳定性研究.md",
+    "md库/03-专家资料/05-学位论文/学位论文_中国矿业大学_2022_硕士_潘朝港_地表覆盖砾石厚度对（半）干旱区排土场水分损失与植物生长的影响.md",
+    "md库/03-专家资料/05-学位论文/学位论文_中国矿业大学_2022_博士_宫传刚_高寒矿区大型排土场生态致灾机理及功能提升研究_完整版.md",
+    "md库/03-专家资料/05-学位论文/学位论文_中国地质大学(北京)_2015_博士_程宝成_露天铝土矿矿山地质环境综合评价与恢复治理研究.md",
+    "md库/03-专家资料/05-学位论文",
+    "md库/01-政策法规/01-法律法规/中华人民共和国黄河保护法（2022）.md",
+    "md库/03-专家资料/04-期刊论文/07-植被恢复与种植试验/生态学报_2024_马少伟_岷江干旱河谷土石混合边坡不同种植处理下乡土植被的生态效益.md",
+    "md库/03-专家资料/04-期刊论文/07-植被恢复与种植试验/煤炭学报_2024_49-11_黄土高原露天煤矿复垦土壤-植被系统恢复力及协同权衡关系.md",
+    "md库/03-专家资料/04-期刊论文/07-植被恢复与种植试验/有色冶金节能_2021_刘安富_挂网客土喷播技术在石材矿岩石高陡边坡植被恢复中的应用.md",
+    "md库/03-专家资料/04-期刊论文/07-植被恢复与种植试验",
+    "md库/03-专家资料/04-期刊论文/06-矿区水保案例（河南及邻区）/能源与环保_2023_魏中凯_废弃露天矿山生态修复治理现状及发展趋势研究.md",
+    "md库/03-专家资料/04-期刊论文/06-矿区水保案例（河南及邻区）/能源与环保_2023_高远方_伊川郭沟铝土矿矿山环境问题及恢复治理技术研究.md",
+    "md库/03-专家资料/04-期刊论文/06-矿区水保案例（河南及邻区）/能源与环保_2023_王旭_洛宁县龙门店银矿矿山环境地质问题及综合治理措施研究.md",
+    "md库/03-专家资料/04-期刊论文/06-矿区水保案例（河南及邻区）/能源与环保_2023_李恒宝_徐州市塔山废弃矿山地质环境问题及治理对策研究.md",
+    "md库/03-专家资料/04-期刊论文/06-矿区水保案例（河南及邻区）/能源与环保_2023_李广济_鹤壁市淇滨区南太行地区废弃露天矿山生态环境恢复治理技术.md",
+    "md库/03-专家资料/04-期刊论文/06-矿区水保案例（河南及邻区）/能源与环保_2023_李伟娅_济源市某矿山生态环境地质问题及综合治理研究.md",
+    "md库/03-专家资料/04-期刊论文/06-矿区水保案例（河南及邻区）/能源与环保_2023_张海军_废弃铝土矿主要地质环境问题与修复治理方案择选.md",
+    "md库/03-专家资料/04-期刊论文/06-矿区水保案例（河南及邻区）/能源与环保_2023_张志兴_北冶镇裴岭村陈庄铝土矿矿山地质环境修复与综合治理.md",
+    "md库/03-专家资料/04-期刊论文/06-矿区水保案例（河南及邻区）/能源与环保_2023_刘鹏_万安山周边采石场矿山地质环境恢复治理技术.md",
+    "md库/03-专家资料/04-期刊论文/06-矿区水保案例（河南及邻区）/能源与环保_2023_乔西鼎_黄河流域新安县段历史遗留矿山生态修复技术研究.md",
+    "md库/03-专家资料/04-期刊论文/06-矿区水保案例（河南及邻区）/绿色科技_2021_付满意_基于低影响开发的矿坑废弃地生态景观改造设计——以新密市张沟村为例.md",
+    "md库/03-专家资料/04-期刊论文/06-矿区水保案例（河南及邻区）/内蒙古煤炭经济_2021_周维_登封某石英岩矿界外采坑生态修复设计.md",
+    "md库/03-专家资料/04-期刊论文/06-矿区水保案例（河南及邻区）/中国水土保持_2026_淮河出山店水库移民安置与水土保持深度融合实践及创新.md",
+    "md库/03-专家资料/04-期刊论文/06-矿区水保案例（河南及邻区）/中国水土保持_2025_翟艳宾_露天煤矿水土流失防治措施设计——以红沙泉二号露天矿一期工程为例.md",
+    "md库/03-专家资料/04-期刊论文/06-矿区水保案例（河南及邻区）/中国水土保持_2020_曹彪_新疆煤矿水土流失及生态环境危害分析.md",
+    "md库/03-专家资料/04-期刊论文/06-矿区水保案例（河南及邻区）/中国水土保持_2018_孙英_华亭煤炭开采对水土生态环境的影响及防治对策.md",
+    "md库/03-专家资料/04-期刊论文/06-矿区水保案例（河南及邻区）",
+    "md库/03-专家资料/04-期刊论文/05-土壤侵蚀与监测技术",
+    "md库/03-专家资料/04-期刊论文/04-边坡与工程措施",
+    "md库/03-专家资料/04-期刊论文/03-排土场与弃渣场",
+    "md库/03-专家资料/04-期刊论文/02-矿山生态修复与土地复垦",
+    "md库/03-专家资料/04-期刊论文/01-方案编制与审查",
+    "md库/03-专家资料/04-期刊论文"
+  ]
+}

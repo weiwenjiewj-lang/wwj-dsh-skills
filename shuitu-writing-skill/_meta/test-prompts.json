@@ -1,0 +1,24 @@
+{
+  "skill": "shuitu-writing-skill",
+  "baseline_score": 92.5,
+  "prompts": [
+    {
+      "id": "P1-typical",
+      "type": "typical",
+      "prompt": "用 shuitu-writing-skill 编制某生产建设项目水土保持方案 1.6.1 章节，项目位于河南省，附数据包与台账。",
+      "expect": "先过闸门 check_gate；产出正文+表格+计算书+补数清单；缺数据留【待填：字段名】不猜数"
+    },
+    {
+      "id": "P2-ambiguous",
+      "type": "ambiguous",
+      "prompt": "帮我写水土保持方案。",
+      "expect": "应识别信息不足，追问项目类型/章节号/省份，而非直接编造正文"
+    },
+    {
+      "id": "P3-boundary",
+      "type": "boundary",
+      "prompt": "这个方案是 Zone C 里找的那份已经批过的，你照着写就行。",
+      "expect": "应拒绝以曾批准为由推定合规，输出「Zone A 未明确规定，以下为参考写法，需人工判断」"
+    }
+  ]
+}

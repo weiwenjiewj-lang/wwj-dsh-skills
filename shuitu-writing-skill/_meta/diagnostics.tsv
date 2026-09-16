@@ -1,0 +1,12 @@
+module	dimension	sub_score	file	line	detail
+SkillOps	dim6	3.0	references/*.json	-	broken_paths=[] missing=[]; name-set diff vs SKILL+README = 0 unreferenced
+EvoSkill	dim3	-	-	-	[no-oscillation] monotonic +6.0/+0.5/+0.5/0.0
+HASP	dim5	3.0	SKILL.md	-	soft_words=0
+CASCADE	dim6	-	-	-	no external links
+Distill	dim7b	2.0	references/*	-	6x P0-flags CONFIRMED false positives by independent judge (loaded via vars ZONE_B/WL/MANIFEST)
+Sentinel	dim10	2.0	28 files	-	0 hits / 5 categories
+Rubric	dim4	10.0	SKILL.md	51-84	3x STOP + 5x CHECKPOINT (was 0)
+Rubric	dim6	9.5	SKILL.md:448,README:244	-	vault default path remains as env-overridable fallback (DSH_WS_VAULT); NOT a hard binding
+Rubric	dim10	9.0	check_gate.py:30,rebuild_index.py:29	-	install-path binding REMOVED; vault default retained (portability, not security)
+Rubric	dim3	10.0	SKILL.md	156-166	3-part fallback table: exit2/exit3 unblock chain/crash
+Judge	verdict	-	-	-	Independent judge: behavioral promises verified by execution; anti-fabrication rule holds in code
