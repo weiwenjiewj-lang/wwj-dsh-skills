@@ -1,6 +1,6 @@
 # wwj-dsh-skills
 
-DeepSeek Harness（DSH）技能包集合。每个技能一个目录，目录内自带 `README.md` 说明用途与来源。
+DeepSeek Harness（DSH）技能包集合：**8 个技能**，每个技能一个目录，目录内自带 `README.md` 说明用途与来源。
 
 配套仓库：[wwj-dsh-plugins](https://github.com/weiwenjiewj-lang/wwj-dsh-plugins)（插件与 profile 配置）
 
@@ -10,15 +10,18 @@ DeepSeek Harness（DSH）技能包集合。每个技能一个目录，目录内�
 
 | 技能 | 用途 | 来源 | 体积 |
 |---|---|---|--:|
-| [`find-skills`](./find-skills/) | 在开放技能生态里检索、评估并安装 skill | Agent Skills 生态（skills.sh 系） | 0.01 MB |
-| [`grill-me`](./grill-me/) | 拷问式计划打磨（入口别名，转调 grilling） | AI Hero 技能体系 | <0.01 MB |
-| [`grilling`](./grilling/) | 把计划当设计树，按轮次追问前沿问题 | AI Hero 技能体系 | <0.01 MB |
-| [`luban-skill-pro`](./luban-skill-pro/) | 鲁班.Skill：skill 评分、自动优化、质量检查 | 智慧半岛 | 0.15 MB |
-| [`neat-freak`](./neat-freak/) | 知识收尾：文档 / 规则 / 记忆与代码行为对账 | 本机 DSH 适配版 | 0.04 MB |
-| [`ponytail`](./ponytail/) | 最懒解法：YAGNI、标准库优先、一行优于五十行 | 上游声明 MIT | 0.01 MB |
-| [`qu-ai-wei`](./qu-ai-wei/) | 中文去 AI 味重写，保留事实与作者声口 | 改编自 blader/humanizer | 0.05 MB |
-| [`self-improvement`](./self-improvement/) | 踩坑记录 → Pattern-Key 去重 → 晋升为永久规则 | OpenClaw 版 self-improving-agent 的 DSH 适配 | 0.02 MB |
-| [`shuitu-writing-skill`](./shuitu-writing-skill/) | 生产建设项目水土保持方案编制（报告书 / 报告表） | 自研 | 452 MB |
+| [`find-skills`](./find-skills/) | 教 agent 在开放技能生态（skills.sh）里检索、评估并安装 skill，自带安装量与来源可信度判据 | Agent Skills 生态 | 0.01 MB |
+| [`grill-me`](./grill-me/) | 拷问式计划打磨的轻量入口，直接转调 `grilling` | AI Hero 技能体系 | <0.01 MB |
+| [`grilling`](./grilling/) | 把计划当设计树，按轮次追问"前沿"问题，每问附推荐答案，问透再动手 | AI Hero 技能体系 | <0.01 MB |
+| [`neat-freak`](./neat-freak/) | 收尾对账：把项目文档、规则文件、记忆、工作区残留与代码真实行为对齐，让下一轮从唯一正确答案出发 | 本机 DSH 适配版 | 0.04 MB |
+| [`ponytail`](./ponytail/) | 最懒解法：先问这任务要不要存在（YAGNI），标准库优先、原生优先、一行优于五十行；支持 lite / full / ultra | 上游声明 MIT | 0.01 MB |
+| [`qu-ai-wei`](./qu-ai-wei/) | 中文去 AI 味重写：保留事实、证据强度、语体与作者声口的前提下重建句子与段落，不做局部换词 | 改编自 blader/humanizer | 0.05 MB |
+| [`self-improvement`](./self-improvement/) | 把踩过的坑写成结构化条目（记录 → Pattern-Key 去重计数 → 达阈值晋升进 AGENTS.md），让同一个错不重复 | OpenClaw 版 self-improving-agent 的 DSH 适配 | 0.02 MB |
+| [`shuitu-writing-skill`](./shuitu-writing-skill/) | 生产建设项目水土保持方案（报告书 / 报告表）的编制、续写、审查与校核，按水利部 2026 版模板逐节点产出；内置 371 篇法规标准范例知识库 | 自研 | 452 MB |
+
+> 技能识别依赖目录内的 `SKILL.md`（YAML frontmatter 的 `name` 与 `description`）。本仓库 8 个目录全部具备。
+>
+> 本机技能目录里原有的 `luban-skill-pro`（鲁班.Skill，来自插件市场，作者署名「智慧半岛」）**不在本仓库**：它在本机已被停用（`SKILL.md` 被移入 `.trash/`），DSH 实际加载的技能就是上表这 8 个。
 
 ---
 
