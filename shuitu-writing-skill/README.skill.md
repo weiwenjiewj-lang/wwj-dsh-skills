@@ -107,7 +107,7 @@
 脚本会拒绝把任何产物写进技能包或知识库）：
 
 ```powershell
-$SK = "C:\Users\weiwe\AppData\Roaming\dsh-desktop\harness\skills\shuitu-writing-skill"
+$SK = "<DSH_HOME>\skills\shuitu-writing-skill"
 ```
 
 ### 第 1 步：把原始资料直接喂进去（不用自己整理格式）
@@ -175,7 +175,7 @@ python "$SK\scripts\check_plan.py" --draft 全书.md --province 河南省 --ledg
 ### 手动运行（可选）
 
 ```powershell
-$SK = "C:\Users\weiwe\AppData\Roaming\dsh-desktop\harness\skills\shuitu-writing-skill"
+$SK = "<DSH_HOME>\skills\shuitu-writing-skill"
 
 # 全部命令都在**项目工作区目录**下运行：数据包.json / 台账.json / 稿件.md 都落在工作区。
 # 脚本拒绝把任何产物写进技能包或知识库（铁律5 零项目残留）——路径写错会直接报错停下。

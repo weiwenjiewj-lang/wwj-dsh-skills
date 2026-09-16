@@ -141,7 +141,7 @@ description: 生产建设项目水土保持方案（报告书/报告表）的编
 
 ```powershell
 # $SK = 本技能包所在目录（本机路径如下，直接可用）：
-# $SK = "C:\Users\weiwe\AppData\Roaming\dsh-desktop\harness\skills\shuitu-writing-skill"
+# $SK = "<DSH_HOME>\skills\shuitu-writing-skill"
 # 全部命令在**项目工作区目录**下运行，产物（数据包/台账/稿/报告）落在工作区。
 # 脚本拒绝把任何产物写进技能包或知识库（铁律5 零项目残留），路径非法即停并说明原因。
 # 退出码：0 通过 · 1 有需处理项 · 2 输入/用法错误（含章节号不在模板里；无可信结果） · 3 闸门 blocked 禁止写作。

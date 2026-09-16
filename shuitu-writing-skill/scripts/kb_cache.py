@@ -63,7 +63,7 @@ class KBCache:
         """
         # 知识库路径统一走 vault_paths（环境变量 DSH_WS_VAULT 优先，
         # 否则默认技能包内的 md库 相对目录）。
-        # 这里原先硬编码 E:\obisidian\... 绝对路径，知识库随技能包交付后必然失效。
+        # 这里原先硬编码 <OBSIDIAN_VAULT> 绝对路径，知识库随技能包交付后必然失效。
         self.vault = vault or VAULT
         self.dir = cache_dir or CACHE_DIR
         os.makedirs(self.dir, exist_ok=True)

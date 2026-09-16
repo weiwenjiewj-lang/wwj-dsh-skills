@@ -257,7 +257,7 @@ Python 在 import 时**先编译写盘、后执行模块体**，所以这条语�
 ## 六、知识库随技能包交付（vault 内嵌）
 
 **变更**：原先知识库是外部的 Obsidian 库（硬编码绝对路径
-`E:\obisidian\知识库本地文件\水土保持方便编制skill`），现**随技能包交付**。
+`<OBSIDIAN_VAULT>`），现**随技能包交付**。
 
 **最终结构**：
 
@@ -400,7 +400,7 @@ Python 在 import 时**先编译写盘、后执行模块体**，所以这条语�
 ## 七、复现与验收命令
 
 ```powershell
-$SK = "C:\Users\weiwe\AppData\Roaming\dsh-desktop\harness\skills\shuitu-writing-skill"
+$SK = "<DSH_HOME>\skills\shuitu-writing-skill"
 
 # —— 验收（改完技能必跑）——
 python "$SK\_meta\verify_equiv.py"           # 压缩等价性：精简包不丢信息（11 节计数全等）

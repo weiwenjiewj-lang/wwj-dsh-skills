@@ -7,8 +7,8 @@
 ## 替换规则
 
 原（各脚本写法略有差异）：
-    VAULT = os.environ.get('DSH_WS_VAULT') or r'E:\\obisidian\\...'
-    VAULT = os.environ.get('DSH_WS_VAULT', r'E:\\obisidian\\...')
+    VAULT = os.environ.get('DSH_WS_VAULT') or r'<OBSIDIAN_VAULT>'
+    VAULT = os.environ.get('DSH_WS_VAULT', r'<OBSIDIAN_VAULT>')
 
 新：
     from vault_paths import VAULT          # 统一入口，默认=技能包内 md库
